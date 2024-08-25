@@ -178,6 +178,6 @@ Create a `.eslintrc.json` file in the project root and enter the below contents:
 
 ## Contact
 
-Sumit Saha - [arifulislamashik07@gmail.com](mailto:arifulislamashik07@gmail.com)
+Ariful Islam Ashik - [arifulislamashik07@gmail.com](mailto:arifulislamashik07@gmail.com)
 
 Project Link: [https://github.com/AI-Ashik/nodejs-practices](https://github.com/AI-Ashik/nodejs-practices)
