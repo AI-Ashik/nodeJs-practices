@@ -1,12 +1,49 @@
-const http = require("http");
+const fs = require("fs");
 
-const port = 3000;
-const hostName = "127.0.0.1";
+// methods - fs
 
-const myServer = http.createServer((req, res) => {
-  res.end("Hello i am your first server");
-});
+// writefile
+// fs.writeFile("hello.txt", "how are you?", (err) => {
+//   if (err) console.log(err.message);
+//   else console.log("done");
+// });
 
-myServer.listen(port, hostName, () => {
-  console.log(`Server is running succesfully at http://${hostName}:${port}`);
+// appendFile
+// fs.appendFile("hello.txt", " i am fine", (err) => {
+//   if (err) console.log(err.message);
+//   else console.log("done");
+// });
+
+// renameFile
+// fs.rename("hello.txt", "hi.txt", (err) => {
+//   if (err) console.log(err.message);
+//   else console.log("done");
+// });
+
+// copyFile
+
+// fs.copyFile("hi.txt", "./copy2/hello.txt", (err) => {
+//   if (err) console.log(err.message);
+//   else console.log("done");
+// });
+
+// unlink (delete)
+
+// fs.unlink("hi.txt", (err) => {
+//   if (err) console.log(err.message);
+//   else console.log("done");
+// });
+
+// rmdir (remove diroctory) - allow to delete blank diroctory
+
+// fs.rm("./copy", { recursive: true }, (err) => {
+//   if (err) console.log(err.message);
+//   else console.log("done");
+// });
+
+// readfile
+
+fs.readFile("hi.txt", "utf-8", (err, data) => {
+  if (err) throw err;
+  console.log(data);
 });
