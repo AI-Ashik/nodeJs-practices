@@ -1,6 +1,6 @@
-[![Facebook][facebook-shield]][https://www.facebook.com/ai.ashik07]
-[![Instagram][instagram-shield][https://www.instagram.com/ai.ashik07]
-[![LinkedIn][linkedin-shield][https://www.linkedin.com/in/aiashik07/]
+[![Facebook][facebook-shield]](https://www.facebook.com/ai.ashik07)
+[![Instagram][instagram-shield]](https://www.instagram.com/ai.ashik07)
+[![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/aiashik07/)
 
 <!-- PROJECT LOGO -->
 <br />
