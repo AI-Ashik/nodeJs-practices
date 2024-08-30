@@ -1,3 +1,7 @@
+[facebook-shield]: https://img.shields.io/badge/-Facebook-black.svg?style=flat-square&logo=facebook&color=555&logoColor=white
+[instagram-shield]: https://img.shields.io/badge/-Instagram-black.svg?style=flat-square&logo=instagram&color=555&logoColor=white
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
+
 [![Facebook][facebook-shield]](https://www.facebook.com/ai.ashik07)
 [![Instagram][instagram-shield]](https://www.instagram.com/ai.ashik07)
 [![LinkedIn][linkedin-shield]](https://www.linkedin.com/in/aiashik07/)
