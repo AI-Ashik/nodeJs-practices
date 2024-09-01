@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>View File</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body {
+        background-color: #1f2937; /* Dark background */
+      }
+    </style>
+  </head>
+  <body>
+    <div
+      class="main w-full min-h-screen flex flex-col items-center justify-center bg-zinc-900 p-4"
+    >
+      <h1 class="text-center text-white text-3xl font-bold mb-4">
+        File Content
+      </h1>
+
+      <div class="bg-zinc-800 p-6 rounded-lg shadow-lg w-full max-w-md">
+        <h2 class="text-white text-xl font-semibold mb-2">
+          File Name: <%= filename %>
+        </h2>
+        <p class="text-white text-s">- <%= filedata %></p>
+      </div>
+      <a href="/" class="mt-4 text-blue-400 hover:underline"
+        >Back to Task Manager</a
+      >
+    </div>
+  </body>
+</html>

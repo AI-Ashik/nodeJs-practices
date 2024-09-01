@@ -15,18 +15,21 @@
     <div
       class="main w-full min-h-screen flex flex-col items-center justify-center bg-zinc-900 p-4"
     >
+    <h1 class="text-center text-white text-3xl font-bold mb-4">Task Manager</h1>  
       <div class="form bg-zinc-800 p-6 rounded-lg shadow-lg w-full max-w-md">
         <form class="flex flex-col " action="/create" method="post">
           <input
             type="text"
-            placeholder="Enter your text"
+            placeholder="Enter Your Task"
             class="mb-4 p-2 rounded bg-zinc-700 text-white"
             name="title"
+            required
           />
           <textarea
-            placeholder="Enter your task details"
+            placeholder="Enter Your Task Details"
             class="mb-4 p-2 rounded bg-zinc-700 text-white resize-none"
             name="details"
+            required
           ></textarea>
           <button
             type="submit"
@@ -40,8 +43,8 @@
         <% if (files && files.length > 0) { %>
           <% files.forEach((val) => { %>
             <div class="bg-zinc-800 p-4 rounded-lg mb-2">
-              <h1 class="text-white">Some random Task</h1>
-              <a href="<%= val.link %>" class="text-blue-400 hover:underline">Read more</a>
+              <h1 class="text-white"><%= val %></h1>
+              <a href="/files/<%= val %>" class="text-blue-400 hover:underline">Read more</a>
             </div>
           <% }); %>
         <% } else { %>
