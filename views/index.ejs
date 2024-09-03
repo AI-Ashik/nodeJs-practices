@@ -42,9 +42,12 @@
       <div class="tasks mt-6 w-full max-w-md">
         <% if (files && files.length > 0) { %>
           <% files.forEach((val) => { %>
-            <div class="bg-zinc-800 p-4 rounded-lg mb-2">
-              <h1 class="text-white"><%= val %></h1>
-              <a href="/files/<%= val %>" class="text-blue-400 hover:underline">Read more</a>
+            <div class="bg-zinc-800 p-4 rounded-lg mb-2 flex justify-between items-center">
+              <div>
+                <h1 class="text-white"><%= val %></h1>
+                <a href="/files/<%= val %>" class="text-blue-400 hover:underline">Read more</a>
+              </div>
+              <a href="/edit/<%= val %>" class="text-blue-400 hover:underline">Edit File Name</a>
             </div>
           <% }); %>
         <% } else { %>
